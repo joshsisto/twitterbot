@@ -9,14 +9,14 @@ import tweepy
 
 # The consumer keys can be found on your application's Details
 # page located at https://dev.twitter.com/apps (under "OAuth settings")
-consumer_key="v6PnUc1baJleHQOU0PLoQrjJh"
-consumer_secret="VpnPIGCNBjQQaK6muMRkMyxmtGtjhdrulYwwaBy8EfhIOspKnp"
+consumer_key="your"
+consumer_secret="info"
 
 # The access tokens can be found on your applications's Details
 # page located at https://dev.twitter.com/apps (located
 # under "Your access token")
-access_token="798343103178358784-19IECbagBM2pzf1KjvqIlg81sVQn08q"
-access_token_secret="S3nbsV0TnA4ewN0TAHKNT6M4qMWG4IDqR8MArcPtucD5l"
+access_token="here"
+access_token_secret="andHere"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -31,4 +31,3 @@ print(api.me().name)
 # this line should tweet out the message to your account's
 # timeline. The "Read and Write" setting is on https://dev.twitter.com/apps
 api.update_status(status='Testing the limits of EVIL!!!')
-print(api.update_status(status='Testing the limits of EVIL!!!'))
