@@ -6,25 +6,11 @@ from urllib import urlopen
 import tweepy
 import time
 
-# == OAuth Authentication ==
-#
-# This mode of authentication is the new preferred way
-# of authenticating with Twitter.
-
-# The consumer keys can be found on your application's Details
-# page located at https://dev.twitter.com/apps (under "OAuth settings")
-consumer_key=""
-consumer_secret=""
-
-# The access tokens can be found on your applications's Details
-# page located at https://dev.twitter.com/apps (located
-# under "Your access token")
-access_token=""
-access_token_secret=""
+# Import credentials.py from same directory
+from credentials import *
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
-
 api = tweepy.API(auth)
 
 # If the authentication was successful, you should
