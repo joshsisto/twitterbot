@@ -6,7 +6,7 @@ from urllib import urlopen
 import tweepy
 import time
 
-# Import credentials.py from same directory
+# Import credentials from credentials.py
 from credentials import *
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -16,12 +16,6 @@ api = tweepy.API(auth)
 # If the authentication was successful, you should
 # see the name of the account print out
 print(api.me().name)
-
-# If the application settings are set for "Read and Write" then
-# this line should tweet out the message to your account's
-# timeline. The "Read and Write" setting is on https://dev.twitter.com/apps
-
-#api.update_status(status='C3P0 is not evil! R2D2 is questionable!')
 
 #Bitcoin
 
