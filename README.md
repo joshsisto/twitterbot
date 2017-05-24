@@ -1,5 +1,6 @@
+Using Python 3 with Tweepy Module https://github.com/tweepy/tweepy/
 # twitterbot
-Twitter bot using python https://twitter.com/Evil_1T @Evil_1T
+Follow my bot on twitter @Evil_1T https://twitter.com/Evil_1T
 
 tweetBTCprice.py - Bitcoin Script
 
