@@ -14,7 +14,6 @@ np_l = np.array(l)
 if __name__ == '__main__':
     while True:
 
-            
         ## https://stackoverflow.com/questions/18854620/whats-the-best-way-to-split-a-string-into-fixed-length-chunks-and-work-with-the
         ## create a definition to chunk strings into a specified size. Going to use to stay under Twitters character limit
         def chunkstring(string, length) :
