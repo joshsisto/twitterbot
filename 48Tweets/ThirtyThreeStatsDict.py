@@ -131,5 +131,5 @@ strats_list = [
 	[ '(DIRTY) WARFARE',
 	  'Strategy 33',
       'SOW UNCERTAINTY AND PANIC THROUGH ACTS OF TERROR: THE CHAIN-REACTION STRATEGY',
-      '''Terror is the ultimate way to paralyze a people’s will to resist and destroy their ability to plan a strategic response. The goal in a terror campaign is not battlefield victory but causing maximum chaos and provoking the other side into desperate overreaction. To plot the most effective counterstrategy, victims of terror must stay balanced. One’s rationality is the last line of defense.''' ]
+      '''Terror is the ultimate way to paralyze a people’s will to resist and destroy their ability to plan a strategic response. The goal in a terror campaign is not battlefield victory but causing maximum chaos and provoking the other side into desperate overreaction. To plot the most effective counterstrategy, victims of terror must stay balanced. One’s rationality is the last line of defense.''' ]]
 	  
