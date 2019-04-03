@@ -1,5 +1,6 @@
 import tweepy
 from credentials import *
+import time
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -67,6 +68,22 @@ def fav_retweet_follow(t_user, numberOfTweets):
         except StopIteration:
             break
 
+
+def retweet_hashtag():
+    for tweet in tweepy.Cursor(api.search, q=('#Bitcoin OR #Python OR #Django OR #raspberrypi OR #Triathlon -filter:retweets'), lang='en').items(10):
+        try:
+            print('\nTweet by: @' + tweet.user.screen_name)
+            print(tweet.text)
+            time.sleep(5)
+
+        except tweepy.TweepError as e:
+            print(e.reason)
+
+        except StopIteration:
+            break
+
+
+retweet_hashtag()
 
 # fav_retweet_follow('joshsisto', 10)
 # get_user_tweets()
