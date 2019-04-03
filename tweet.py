@@ -1,4 +1,4 @@
-from __future__ import absolute_import, print_function
+#from __future__ import absolute_import, print_function
 
 import tweepy
 
@@ -9,14 +9,14 @@ import tweepy
 
 # The consumer keys can be found on your application's Details
 # page located at https://dev.twitter.com/apps (under "OAuth settings")
-consumer_key="your"
-consumer_secret="info"
+consumer_key = "your"
+consumer_secret = "info"
 
 # The access tokens can be found on your applications's Details
 # page located at https://dev.twitter.com/apps (located
 # under "Your access token")
-access_token="here"
-access_token_secret="andHere"
+access_token = "here"
+access_token_secret = "andHere"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
